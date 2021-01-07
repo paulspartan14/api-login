@@ -73,5 +73,3 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 ## License :page_facing_up:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
-
-Made with ❤️ by [Esteban Alvarez](https://github.com/alvarez98) 
