@@ -1,4 +1,4 @@
-# Express - MongoDB Template
+# Express - MongoDB API
 
 Template for developing an API with Express and MongoDB
 
@@ -60,7 +60,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Contributors :family_man_man_boy:
 
-- **Esteban Alvarez** - _Initial work_ - [@alvarez98](https://github.com/alvarez98)
+- **Esteban Alvarez** - _Initial work_ - [@paulspartan14(https://github.com/paulspartan14)
 
 ## Credits :star:
 
