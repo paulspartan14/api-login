@@ -5,6 +5,8 @@ services:
     build: 
       dockerfile: ./dockerfile
       context: .
+    image: node-api:v1.0
+    container_name: node-api
     volumes:
       - .:/usr/src/app
       - /usr/src/app/node_modules
@@ -16,6 +18,7 @@ services:
   mongo:
     image: mongo
     restart: always
+    container_name: mongoDB
     environment:
       MONGO_INITDB_ROOT_USERNAME: $MONGO_INITDB_ROOT_USERNAME
       MONGO_INITDB_ROOT_PASSWORD: $MONGO_INITDB_ROOT_PASSWORD
@@ -30,6 +33,7 @@ services:
 
   mongo-express:
     image: mongo-express
+    container_name: mongo-express
     restart: always
     ports:
       - 8081:8081
