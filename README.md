@@ -60,7 +60,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Contributors :family_man_man_boy:
 
-- **Esteban Alvarez** - _Initial work_ - [@paulspartan14(https://github.com/paulspartan14)
+- **Paul Mena** - _Initial work_ - [@paulspartan14(https://github.com/paulspartan14)
 
 ## Credits :star:
 
