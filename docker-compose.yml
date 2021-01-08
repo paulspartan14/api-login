@@ -3,7 +3,7 @@ version: '3'
 services:
   api:
     build: 
-      dockerfile: ./dockerfile
+      dockerfile: ./Dockerfile
       context: .
     image: node-api:v1.0
     container_name: node-api

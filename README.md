@@ -30,6 +30,7 @@ $ source .env
 
 - Init your database and server with:
 ```sh
+$ docker-compose build
 $ docker-compose up -d
 ```
 
