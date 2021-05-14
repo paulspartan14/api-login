@@ -9,7 +9,13 @@ const { handleErrors } = require('./middlewares/handleErrors')
 // Middlewares
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
-app.use(cors())
+
+// Cors options
+const corsOptions = {
+  origin: '*',
+  optionsSuccessStatus: 200
+}
+app.use(cors(corsOptions))
 
 // Routes
 app.use('/api', api)
